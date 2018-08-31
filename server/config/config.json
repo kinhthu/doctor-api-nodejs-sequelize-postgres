@@ -1,0 +1,21 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Password1",
+    "database": "doctor_db",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "Password1",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL"
+  }
+}
